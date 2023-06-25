@@ -1,0 +1,7 @@
+{
+  "name": "ca2mobdev_sba22078",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
