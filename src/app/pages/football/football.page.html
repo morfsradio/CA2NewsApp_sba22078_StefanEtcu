@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Football News
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let news of footballNews">
+      {{ news.title }}
+    </ion-item>
+  </ion-list>
+</ion-content>
