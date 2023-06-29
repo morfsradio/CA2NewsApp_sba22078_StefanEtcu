@@ -13,4 +13,9 @@ export class NewsService {
     const url = `https://newsapi.org/v2/top-headlines?category=sports&q=football&apiKey=${this.apiKey}`;
     return this.http.get(url);
   }
+  
+  getBasketballNews() {
+    const url = `https://newsapi.org/v2/top-headlines?category=sports&q=basketball&apiKey=${this.apiKey}`;
+    return this.http.get(url);
+  }
 }
